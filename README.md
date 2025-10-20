@@ -1,16 +1,61 @@
-# multi_screen_app
+# 🧭 Flutter Multi-Screen Navigation App
 
-A new Flutter project.
+This Flutter project demonstrates **multiple navigation methods** — both **Navigator push/pop** and **Named Routes** — to move between screens in a simple and scalable way.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🏠 Home Screen with two navigation buttons  
+- 📄 Details Screen using **Navigator.push / pop**  
+- ℹ️ About Screen using **Named Routes**  
+- Clean and organized folder structure  
+- Beginner-friendly Flutter navigation example  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technologies Used
+
+- Flutter (Dart)
+- Material Design Widgets
+- Navigator API (push, pop, and named routes)
+
+---
+
+
+
+---
+
+## 🧩 How It Works
+
+- **Push/Pop Navigation:**  
+  `Navigator.push()` → Moves to new screen  
+  `Navigator.pop()` → Returns to previous screen  
+
+- **Named Routes Navigation:**  
+  Routes are defined inside `MaterialApp(routes: {...})`  
+  and accessed using `Navigator.pushNamed(context, '/routeName')`.
+
+---
+
+## 🧠 Learning Outcome
+
+By building this project, you’ll understand:
+- The difference between **push/pop** and **named routes**  
+- How to organize **multi-screen Flutter apps**  
+- How to write **clean and scalable navigation code**
+
+---
+
+## 🖥️ Setup Instructions
+
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/yourusername/flutter_navigation_practice.git
+
+
+2. Run the app
+   flutter run
+
+
+
