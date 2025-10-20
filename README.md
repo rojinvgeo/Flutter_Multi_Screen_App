@@ -52,9 +52,8 @@ By building this project, you’ll understand:
 1. Clone this repository  
    ```bash
    git clone https://github.com/yourusername/flutter_navigation_practice.git
-
-
 2. Run the app
+   '''bash
    flutter run
 
 
